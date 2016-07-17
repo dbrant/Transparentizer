@@ -58,7 +58,6 @@ namespace Transparentizer
                 Bitmap bmp = new Bitmap(origBmp.Width, origBmp.Height, PixelFormat.Format32bppArgb);
 
                 var g = Graphics.FromImage(bmp);
-                Console.WriteLine("Original image dimensions: " + origBmp.Width + " x " + origBmp.Height);
                 g.DrawImage(origBmp, 0, 0, origBmp.Width, origBmp.Height);
                 origBmp.Dispose();
 
