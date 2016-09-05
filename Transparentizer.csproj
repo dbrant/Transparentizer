@@ -88,6 +88,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="myicon.ico" />
+    <None Include="Resources\color--pencil.png" />
+    <None Include="Resources\selection.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

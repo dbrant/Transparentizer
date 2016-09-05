@@ -63,6 +63,16 @@ namespace Transparentizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap colorpencil {
+            get {
+                object obj = ResourceManager.GetObject("colorpencil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img_placeholder {
             get {
                 object obj = ResourceManager.GetObject("img_placeholder", resourceCulture);
